@@ -1,0 +1,219 @@
+<ProtectedElement el="CCHNode" crc="4a8b"><CCHNode>
+  <CouchTop>
+    <installed>0</installed>
+  </CouchTop>
+  <Compensation>
+    <enable>true</enable>
+    <patientWeight>82</patientWeight>
+  </Compensation>
+  <Files>
+    <File name="/ata1/cch.out">
+      <expectedCRC>25727</expectedCRC>
+      <version>1.5.9.2</version>
+    </File>
+    <File name="/ata1/nvram.txt">
+      <expectedCRC>62213</expectedCRC>
+      <version>N/A</version>
+    </File>
+    <File name="/ata1/bootrom.sys">
+      <expectedCRC>36511</expectedCRC>
+      <version>N/A</version>
+    </File>
+    <File name="/ata1/vxworks">
+      <expectedCRC>61563</expectedCRC>
+      <version>5.5.1</version>
+    </File>
+    <File name="/ata1/cch.xvf">
+      <expectedCRC>38016</expectedCRC>
+      <version>N/A</version>
+    </File>
+    <File name="/ata1/defaults.xml">
+      <expectedCRC>0</expectedCRC>
+      <version>N/A</version>
+    </File>
+    <File name="/ata1/cchlstartup.txt">
+      <expectedCRC>49368</expectedCRC>
+      <version>N/A</version>
+    </File>
+    <File name="/ata1/cchustartup.txt">
+      <expectedCRC>32688</expectedCRC>
+      <version>N/A</version>
+    </File>
+  </Files>
+  <MotorCtrl>
+    <ServoRecord bufferSize="30000" />
+    <Lat>
+      <isSimulated>false</isSimulated>
+      <maxOrderPos>124.5</maxOrderPos>
+      <minOrderPos>75.5</minOrderPos>
+      <Primary>
+        <gainIso>1.0</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>74.5</offset>
+        <countPerUnit min="1513.54" max="1672.86">1593.2</countPerUnit>
+      </Primary>
+      <Secondary>
+        <gainIso>1</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>74.5</offset>
+        <countPerUnit min="1513.54" max="1672.86">1593.2</countPerUnit>
+      </Secondary>
+      <motionRecord bufferSize="20000" />
+      <MotorSensor>
+        <gainIso>1.0</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>0.0</offset>
+      </MotorSensor>
+      <recordInReadyCnt>20000</recordInReadyCnt>
+      <recordInPowerOffCnt>20</recordInPowerOffCnt>
+    </Lat>
+    <Lng>
+      <isSimulated>false</isSimulated>
+      <maxOrderPos>160.5</maxOrderPos>
+      <minOrderPos>15.5</minOrderPos>
+      <Primary>
+        <gainIso>1.0</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>0</offset>
+        <countPerUnit min="515.99" max="570.31">543.15</countPerUnit>
+      </Primary>
+      <Secondary>
+        <gainIso>1</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>0</offset>
+        <countPerUnit min="515.99" max="570.31">543.15</countPerUnit>
+      </Secondary>
+      <motionRecord bufferSize="20000" />
+      <MotorSensor>
+        <gainIso>1.0</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>0.0</offset>
+      </MotorSensor>
+      <recordInReadyCnt>20000</recordInReadyCnt>
+      <recordInPowerOffCnt>20</recordInPowerOffCnt>
+    </Lng>
+    <Rtn>
+      <isSimulated>false</isSimulated>
+      <maxOrderPos>275</maxOrderPos>
+      <minOrderPos>85</minOrderPos>
+      <Primary>
+        <gainIso>1.0</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>91.896484</offset>
+        <countPerUnit>512</countPerUnit>
+      </Primary>
+      <Secondary>
+        <gainIso>1</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>77.067138</offset>
+        <countPerUnit>455.111</countPerUnit>
+      </Secondary>
+      <Tertiary>
+        <gainIso>1</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>103.94324</offset>
+        <countPerUnit>327.68</countPerUnit>
+      </Tertiary>
+      <motionRecord bufferSize="20000" />
+      <MotorSensor>
+        <gainIso>1.0</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>0</offset>
+      </MotorSensor>
+      <poles>2</poles>
+      <motorKd>1000000</motorKd>
+      <motorKp>2000</motorKp>
+      <loadKp>0</loadKp>
+      <loadKi>544</loadKi>
+      <loadKd>6318720</loadKd>
+      <recordInReadyCnt>20000</recordInReadyCnt>
+      <recordInPowerOffCnt>20</recordInPowerOffCnt>
+    </Rtn>
+    <Vrt>
+      <isSimulated>false</isSimulated>
+      <maxOrderPos>166.5</maxOrderPos>
+      <minOrderPos>59.5</minOrderPos>
+      <minOrderPosBrainLab>79.5</minOrderPosBrainLab>
+      <Primary>
+        <gainIso>1.0</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>60.0</offset>
+        <countPerUnit min="766.14" max="846.78">806.458</countPerUnit>
+      </Primary>
+      <Secondary>
+        <gainIso>1</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>189.8443232</offset>
+        <HWOffset>354553783.7857561</HWOffset>
+        <minCalibVal>0.0</minCalibVal>
+        <minCalibPos>60.0</minCalibPos>
+        <maxCalibVal>0.0</maxCalibVal>
+        <maxCalibPos>166.5</maxCalibPos>
+        <calibrate>false</calibrate>
+        <calibRange>66.5</calibRange>
+        <countPerUnit min="766.14" max="846.78">806.458</countPerUnit>
+      </Secondary>
+      <MotorSensor>
+        <gainIso>1</gainIso>
+        <offsetIso>0</offsetIso>
+        <offset>189.8443232</offset>
+        <HWOffset>354553783.7857561</HWOffset>
+        <minCalibVal>0.0</minCalibVal>
+        <minCalibPos>60.0</minCalibPos>
+        <maxCalibVal>0.0</maxCalibVal>
+        <maxCalibPos>166.5</maxCalibPos>
+        <calibrate>false</calibrate>
+        <calibRange>66.5</calibRange>
+      </MotorSensor>
+      <motionRecord bufferSize="20000" />
+      <motorKd>100000</motorKd>
+      <motorKp>200</motorKp>
+      <loadKp>0</loadKp>
+      <loadKi>1500</loadKi>
+      <loadKd>100000</loadKd>
+      <recordInReadyCnt>20000</recordInReadyCnt>
+      <recordInPowerOffCnt>20</recordInPowerOffCnt>
+    </Vrt>
+  </MotorCtrl>
+  <UserInputCtrl>
+    <useCAN>true</useCAN>
+    <LeftPendant>
+      <present>true</present>
+      <codeDownload>
+        <codeCRC>0</codeCRC>
+      </codeDownload>
+    </LeftPendant>
+    <RightPendant>
+      <present>true</present>
+      <codeDownload>
+        <codeCRC>0</codeCRC>
+      </codeDownload>
+    </RightPendant>
+    <LeftSidePanel>
+      <present>true</present>
+      <codeDownload>
+        <codeCRC>0</codeCRC>
+      </codeDownload>
+    </LeftSidePanel>
+    <RightSidePanel>
+      <present>true</present>
+      <codeDownload>
+        <codeCRC>0</codeCRC>
+      </codeDownload>
+    </RightSidePanel>
+  </UserInputCtrl>
+  <EventLog>
+    <faultInTreatEventLog>clinical</faultInTreatEventLog>
+    <majorFaultEventLog>always</majorFaultEventLog>
+    <postFailureEventLog>always</postFailureEventLog>
+    <nodeFaultEventLog>always</nodeFaultEventLog>
+    <motionFaultEventLog>always</motionFaultEventLog>
+    <ignoredFaults>0</ignoredFaults>
+    <postFaults>0</postFaults>
+    <nodeFaults>0</nodeFaults>
+    <wvEnable>true</wvEnable>
+    <wvTriggers>0</wvTriggers>
+    <!--ignoredFaults, postFaults and nodeFaults are lists of fault Ids. wvTriggers is a list of fault and interlock Ids. The Ids in the list is separated by comma (e.g. 700001,700002) ranges specified 100..200 inclusive. It can not be left empty, enter 0 if no Id should be in the list.-->
+  </EventLog>
+  <machineId>Unknown</machineId>
+</CCHNode></ProtectedElement>

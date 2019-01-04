@@ -1,0 +1,18 @@
+sysCplusEnable=1
+
+ipAttach 0, "fei"
+ifMaskSet "fei0", 0xffffff00
+ifAddrSet "fei0", "172.21.21.180"
+ifFlagSet "fei0", 0x1
+
+sethostname "CCHL", 4
+hostAdd "CCHL", "172.21.21.180"
+
+ld 1,0, "/ata1/CCH.out"
+
+CMNCalculateCodeCRC 1
+
+# In units of MB.  You will have to decrease this if there isn't enough memory
+CMNCreateRamDisk 30
+
+CMNStart

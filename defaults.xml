@@ -1,0 +1,424 @@
+<ProtectedElement crc="6b6a"><CCHNode>
+  <BoardConfig>
+    <minFlashSize>30000000</minFlashSize>
+    <minMemorySize>110000000</minMemorySize>
+  </BoardConfig>
+  <Logging>
+    <Default>Info</Default>
+    <General>Info</General>
+    <Driver>Info</Driver>
+    <Controller>Info</Controller>
+    <Coordinator>Info</Coordinator>
+    <Communication>Info</Communication>
+    <HardwareAPI>Info</HardwareAPI>
+    <Fault>Info</Fault>
+    <Interlock>Info</Interlock>
+  </Logging>
+  <EventLog>
+    <disableAllEventLog>false</disableAllEventLog>
+    <filePath>/ramdisk0/eventLog.xml</filePath>
+    <wvFilePath>/ramdisk0/WindView.wvr</wvFilePath>
+    <wvEvbFilePath>/ramdisk0/eventbase.tcl</wvEvbFilePath>
+    <limitRecordReadSize>500</limitRecordReadSize>
+  </EventLog>
+  <OSMonitor>
+    <disableAutoReloadConfig>false</disableAutoReloadConfig>
+    <disableFilesCRCCheck>false</disableFilesCRCCheck>
+    <disableInMemoryCodeCRCCheck>false</disableInMemoryCodeCRCCheck>
+    <disableInMemoryConfigDataCheck>false</disableInMemoryConfigDataCheck>
+    <enableInMemoryCodeCRCCheckDebug>true</enableInMemoryCodeCRCCheckDebug>
+    <enableInMemoryConfigDataCheckDebug>true</enableInMemoryConfigDataCheckDebug>
+    <inMemoryCodeDumpDir>/ata1</inMemoryCodeDumpDir>
+    <inMemoryConfigDumpDir>/ramdisk0</inMemoryConfigDumpDir>
+    <autoUnoverrideInClinical>true</autoUnoverrideInClinical>
+  </OSMonitor>
+  <ProgrammableRecorder>
+    <record bufferSize="1000" recordSize="-1" defaultReadSize="1000" />
+  </ProgrammableRecorder>
+  <Coordinator>
+    <heartbeatTimeoutOffset>2</heartbeatTimeoutOffset>
+    <orderTimeoutOffset>2</orderTimeoutOffset>
+    <heartbeatPeriodTolerance>1</heartbeatPeriodTolerance>
+    <heartbeatDutyCycleTolerance>1</heartbeatDutyCycleTolerance>
+    <Components>
+      <Version name="CCHU-FPGA-CPLD">
+        <compatibleVersion maj="1" min="5" rev="0" />
+      </Version>
+      <Version name="CCHU-FPGA-FW">
+        <compatibleVersion maj="0" min="4" rev="0" build="26" crc="38016" />
+      </Version>
+      <Version name="CCHU-FPGA-VHDL">
+        <compatibleVersion maj="0" min="5" rev="0" build="13" />
+      </Version>
+      <Version name="CCHU-LSP-FW">
+        <compatibleVersion maj="1" min="5" rev="2" build="4" crc="701175844" />
+      </Version>
+      <Version name="CCHU-RSP-FW">
+        <compatibleVersion maj="1" min="5" rev="2" build="4" crc="701175844" />
+      </Version>
+      <Version name="CCHU-LPD-FW">
+        <compatibleVersion maj="1" min="5" rev="2" build="4" crc="2872645034" />
+      </Version>
+      <Version name="CCHU-RPD-FW">
+        <compatibleVersion maj="1" min="5" rev="2" build="4" crc="2872645034" />
+      </Version>
+      <Version name="CCHL-FPGA-FW">
+        <compatibleVersion maj="0" min="4" rev="0" build="26" crc="38016" />
+      </Version>
+      <Version name="CCHL-FPGA-CPLD">
+        <compatibleVersion maj="1" min="5" rev="0" />
+      </Version>
+      <Version name="CCHL-FPGA-VHDL">
+        <compatibleVersion maj="0" min="5" rev="0" build="13" />
+      </Version>
+      <Version name="CCHL-Soloist-FW">
+        <compatibleVersion maj="2" min="0" rev="4" />
+        <compatibleVersion maj="2" min="5" rev="5" />
+      </Version>
+      <Version name="CCHL-Soloist-Task">
+        <compatibleVersion maj="2" min="1" rev="0" />
+        <compatibleVersion maj="2" min="3" rev="0" />
+        <compatibleVersion maj="2" min="3" rev="1" />
+      </Version>
+      <PartIdent name="CCHU-PCB">
+        <compatiblePartIdent part="100018821" dash="08" />
+      </PartIdent>
+      <PartIdent name="CCHL-PCB">
+        <compatiblePartIdent part="100018821" dash="08" />
+      </PartIdent>
+      <PartIdent name="CCHU-LSP-ASSY">
+        <compatiblePartIdent part="100032590" dash="03" />
+        <compatiblePartIdent part="100032590" dash="04" />
+        <compatiblePartIdent part="100032590" dash="05" />
+      </PartIdent>
+      <PartIdent name="CCHU-RSP-ASSY">
+        <compatiblePartIdent part="100032605" dash="03" />
+        <compatiblePartIdent part="100032605" dash="04" />
+        <compatiblePartIdent part="100032605" dash="05" />
+      </PartIdent>
+      <PartIdent name="CCHU-LPD-ASSY">
+        <compatiblePartIdent part="100032550" dash="03" />
+        <compatiblePartIdent part="100032550" dash="04" />
+        <compatiblePartIdent part="100032550" dash="05" />
+      </PartIdent>
+      <PartIdent name="CCHU-RPD-ASSY">
+        <compatiblePartIdent part="100032550" dash="03" />
+        <compatiblePartIdent part="100032550" dash="04" />
+        <compatiblePartIdent part="100032550" dash="05" />
+      </PartIdent>
+      <CompatibleGroup id="0">
+        <Version name="CCHU-FPGA-FW">
+          <compatibleVersion maj="0" min="4" rev="0" build="26" crc="38016" />
+        </Version>
+        <PartIdent name="CCHU-PCB">
+          <compatiblePartIdent part="100018821" dash="08" />
+        </PartIdent>
+      </CompatibleGroup>
+      <CompatibleGroup id="1">
+        <Version name="CCHL-FPGA-FW">
+          <compatibleVersion maj="0" min="4" rev="0" build="26" crc="38016" />
+        </Version>
+        <PartIdent name="CCHL-PCB">
+          <compatiblePartIdent part="100018821" dash="08" />
+        </PartIdent>
+      </CompatibleGroup>
+      <CompatibleGroup id="2">
+        <Version name="CCHU-LSP-FW">
+          <compatibleVersion maj="1" min="5" rev="2" build="4" crc="701175844" />
+        </Version>
+        <PartIdent name="CCHU-LSP-ASSY">
+          <compatiblePartIdent part="100032590" dash="03" />
+          <compatiblePartIdent part="100032590" dash="04" />
+          <compatiblePartIdent part="100032590" dash="05" />
+        </PartIdent>
+      </CompatibleGroup>
+      <CompatibleGroup id="3">
+        <Version name="CCHU-RSP-FW">
+          <compatibleVersion maj="1" min="5" rev="2" build="4" crc="701175844" />
+        </Version>
+        <PartIdent name="CCHU-RSP-ASSY">
+          <compatiblePartIdent part="100032605" dash="03" />
+          <compatiblePartIdent part="100032605" dash="04" />
+          <compatiblePartIdent part="100032605" dash="05" />
+        </PartIdent>
+      </CompatibleGroup>
+      <CompatibleGroup id="4">
+        <Version name="CCHU-LPD-FW">
+          <compatibleVersion maj="1" min="5" rev="2" build="4" crc="2872645034" />
+        </Version>
+        <PartIdent name="CCHU-LPD-ASSY">
+          <compatiblePartIdent part="100032550" dash="03" />
+          <compatiblePartIdent part="100032550" dash="04" />
+          <compatiblePartIdent part="100032550" dash="05" />
+        </PartIdent>
+      </CompatibleGroup>
+      <CompatibleGroup id="5">
+        <Version name="CCHU-RPD-FW">
+          <compatibleVersion maj="1" min="5" rev="2" build="4" crc="2872645034" />
+        </Version>
+        <PartIdent name="CCHU-RPD-ASSY">
+          <compatiblePartIdent part="100032550" dash="03" />
+          <compatiblePartIdent part="100032550" dash="04" />
+          <compatiblePartIdent part="100032550" dash="05" />
+        </PartIdent>
+      </CompatibleGroup>
+    </Components>
+    <AdcLoopback>
+      <LoopbackChannel id="7">
+        <faultTolerance>10</faultTolerance>
+        <warningTolerance>5</warningTolerance>
+        <TestData step="1">
+          <output>120</output>
+          <expectedInput>102</expectedInput>
+        </TestData>
+      </LoopbackChannel>
+    </AdcLoopback>
+  </Coordinator>
+  <MotorCtrl>
+    <Lat>
+      <maxOrderSpeed>4</maxOrderSpeed>
+      <maxOrderDecel>7.5</maxOrderDecel>
+      <maxOrderAccel>7.5</maxOrderAccel>
+      <maxPrimSecDiff>0.2</maxPrimSecDiff>
+      <maxPrimSecDiffWarn>0.18</maxPrimSecDiffWarn>
+      <maxSpeedLim>1</maxSpeedLim>
+      <maxSpeed>8</maxSpeed>
+      <maxPrimDrift>0.05</maxPrimDrift>
+      <maxPrimDriftWarn>0.04</maxPrimDriftWarn>
+      <maxSecDrift>0.25</maxSecDrift>
+      <maxSecDriftWarn>0.2</maxSecDriftWarn>
+      <maxPrimDeviation>0.2</maxPrimDeviation>
+      <maxPrimDeviationWarn>0.18</maxPrimDeviationWarn>
+      <maxSecDeviation>0.4</maxSecDeviation>
+      <maxSecDeviationWarn>0.375</maxSecDeviationWarn>
+      <minDecel>8</minDecel>
+      <maxCur>5</maxCur>
+      <maxCurLim>2</maxCurLim>
+      <maxCurCont>5</maxCurCont>
+      <maxCurContTime>2</maxCurContTime>
+      <maxAccel>10</maxAccel>
+      <maxStoppingTime>0.5</maxStoppingTime>
+      <extendLimits>false</extendLimits>
+      <extendLimitsPercentage>0.1</extendLimitsPercentage>
+      <isSimulated>false</isSimulated>
+      <settlingTime>150</settlingTime>
+      <positionTolerance>0.05</positionTolerance>
+      <nearEndDistance>5</nearEndDistance>
+      <floatSpeedPercentage>0.6</floatSpeedPercentage>
+      <maxFloatSpeed>40</maxFloatSpeed>
+      <thetaAdvanceFactor>3500</thetaAdvanceFactor>
+      <resolverAlignGain>8000</resolverAlignGain>
+      <poles>4</poles>
+      <motorKd>200000</motorKd>
+      <motorKp>300</motorKp>
+      <loadKp>0</loadKp>
+      <loadKi>100</loadKi>
+      <loadKd>1000000</loadKd>
+      <slippingDistance>0.2</slippingDistance>
+      <slippingDelayTime>500</slippingDelayTime>
+      <MotorSensor>
+        <countPerUnit>246449</countPerUnit>
+        <offset>0</offset>
+        <offsetIso>0</offsetIso>
+        <gainIso>1</gainIso>
+      </MotorSensor>
+      <commuSensorOffsetDeg min="-42.8" max="42.8">0</commuSensorOffsetDeg>
+      <primSecOppositeDirLimit>2.0</primSecOppositeDirLimit>
+      <orderChangedLimit>5.0</orderChangedLimit>
+      <motionRecord bufferSize="20000" recordSize="-1" defaultReadSize="20000" />
+      <primPosHwStableTol>9</primPosHwStableTol>
+      <deviationFaultDelayTime>1000</deviationFaultDelayTime>
+    </Lat>
+    <Lng>
+      <maxOrderSpeed>8</maxOrderSpeed>
+      <maxOrderDecel>20</maxOrderDecel>
+      <maxOrderAccel>20</maxOrderAccel>
+      <maxPrimSecDiff>0.2</maxPrimSecDiff>
+      <maxPrimSecDiffWarn>0.18</maxPrimSecDiffWarn>
+      <maxSpeedLim>1</maxSpeedLim>
+      <maxSpeed>8</maxSpeed>
+      <maxPrimDrift>0.05</maxPrimDrift>
+      <maxPrimDriftWarn>0.04</maxPrimDriftWarn>
+      <maxSecDrift>0.25</maxSecDrift>
+      <maxSecDriftWarn>0.2</maxSecDriftWarn>
+      <maxPrimDeviation>0.2</maxPrimDeviation>
+      <maxPrimDeviationWarn>0.18</maxPrimDeviationWarn>
+      <maxSecDeviation>0.4</maxSecDeviation>
+      <maxSecDeviationWarn>0.375</maxSecDeviationWarn>
+      <minDecel>8</minDecel>
+      <maxCur>5</maxCur>
+      <maxCurLim>0.5</maxCurLim>
+      <maxCurCont>5</maxCurCont>
+      <maxCurContTime>2</maxCurContTime>
+      <maxAccel>10</maxAccel>
+      <maxStoppingTime>0.5</maxStoppingTime>
+      <extendLimits>false</extendLimits>
+      <extendLimitsPercentage>0.1</extendLimitsPercentage>
+      <isSimulated>false</isSimulated>
+      <settlingTime>150</settlingTime>
+      <positionTolerance>0.05</positionTolerance>
+      <nearEndDistance>5</nearEndDistance>
+      <floatSpeedPercentage>0.6</floatSpeedPercentage>
+      <maxFloatSpeed>50</maxFloatSpeed>
+      <thetaAdvanceFactor>5000</thetaAdvanceFactor>
+      <resolverAlignGain>8000</resolverAlignGain>
+      <poles>4</poles>
+      <motorKd>100000</motorKd>
+      <motorKp>300</motorKp>
+      <loadKp>0</loadKp>
+      <loadKi>276</loadKi>
+      <loadKd>2000000</loadKd>
+      <slippingDistance>0.2</slippingDistance>
+      <slippingDelayTime>500</slippingDelayTime>
+      <MotorSensor>
+        <countPerUnit>231046</countPerUnit>
+        <offset>0</offset>
+        <offsetIso>0</offsetIso>
+        <gainIso>1</gainIso>
+      </MotorSensor>
+      <commuSensorOffsetDeg min="-42.8" max="42.8">0</commuSensorOffsetDeg>
+      <primSecOppositeDirLimit>2.0</primSecOppositeDirLimit>
+      <orderChangedLimit>5.0</orderChangedLimit>
+      <motionRecord bufferSize="20000" recordSize="-1" defaultReadSize="20000" />
+      <primPosHwStableTol>3</primPosHwStableTol>
+      <deviationFaultDelayTime>1000</deviationFaultDelayTime>
+    </Lng>
+    <Rtn>
+      <maxOrderSpeed>3</maxOrderSpeed>
+      <maxOrderDecel>5</maxOrderDecel>
+      <maxOrderAccel>5</maxOrderAccel>
+      <maxPrimSecDiff>1</maxPrimSecDiff>
+      <maxPrimSecDiffWarn>0.8</maxPrimSecDiffWarn>
+      <maxSpeedLim>1</maxSpeedLim>
+      <maxSpeed>3</maxSpeed>
+      <maxPrimDrift>0.2</maxPrimDrift>
+      <maxPrimDriftWarn>0.15</maxPrimDriftWarn>
+      <maxSecDrift>1.2</maxSecDrift>
+      <maxSecDriftWarn>1.15</maxSecDriftWarn>
+      <maxPrimDeviation>1</maxPrimDeviation>
+      <maxPrimDeviationWarn>0.8</maxPrimDeviationWarn>
+      <maxSecDeviation>2</maxSecDeviation>
+      <maxSecDeviationWarn>1.8</maxSecDeviationWarn>
+      <minDecel>3</minDecel>
+      <maxCur>5</maxCur>
+      <maxCurLim>1</maxCurLim>
+      <maxCurCont>5</maxCurCont>
+      <maxCurContTime>2</maxCurContTime>
+      <maxAccel>6</maxAccel>
+      <maxStoppingTime>0.5</maxStoppingTime>
+      <extendLimits>false</extendLimits>
+      <extendLimitsPercentage>0.1</extendLimitsPercentage>
+      <isSimulated>false</isSimulated>
+      <settlingTime>150</settlingTime>
+      <positionTolerance>0.05</positionTolerance>
+      <brake>false</brake>
+      <thetaAdvanceFactor>3500</thetaAdvanceFactor>
+      <resolverAlignGain>8000</resolverAlignGain>
+      <servoEnable>71</servoEnable>
+      <maxPrimTertDiff>1</maxPrimTertDiff>
+      <slippingDistance>1</slippingDistance>
+      <slippingDelayTime>500</slippingDelayTime>
+      <MotorSensor>
+        <countPerUnit>166192</countPerUnit>
+        <offset>0</offset>
+        <offsetIso>0</offsetIso>
+        <gainIso>1</gainIso>
+      </MotorSensor>
+      <commuSensorOffsetDeg min="-42.8" max="42.8">0</commuSensorOffsetDeg>
+      <primSecOppositeDirLimit>2.0</primSecOppositeDirLimit>
+      <orderChangedLimit>5.0</orderChangedLimit>
+      <motionRecord bufferSize="20000" recordSize="-1" defaultReadSize="20000" />
+      <primPosHwStableTol>4</primPosHwStableTol>
+      <deviationFaultDelayTime>1000</deviationFaultDelayTime>
+    </Rtn>
+    <Vrt>
+      <maxOrderSpeed>2</maxOrderSpeed>
+      <maxOrderDecel>5</maxOrderDecel>
+      <maxOrderAccel>5</maxOrderAccel>
+      <maxPrimSecDiff>0.5</maxPrimSecDiff>
+      <maxPrimSecDiffWarn>0.45</maxPrimSecDiffWarn>
+      <maxSpeedLim>1</maxSpeedLim>
+      <maxSpeed>2</maxSpeed>
+      <maxPrimDrift>0.02</maxPrimDrift>
+      <maxPrimDriftWarn>0.015</maxPrimDriftWarn>
+      <maxSecDrift>0.62</maxSecDrift>
+      <maxSecDriftWarn>0.52</maxSecDriftWarn>
+      <maxPrimDeviation>0.1</maxPrimDeviation>
+      <maxPrimDeviationWarn>0.08</maxPrimDeviationWarn>
+      <maxSecDeviation>0.72</maxSecDeviation>
+      <maxSecDeviationWarn>0.62</maxSecDeviationWarn>
+      <minDecel>2</minDecel>
+      <maxCur>9</maxCur>
+      <maxCurLim>1</maxCurLim>
+      <maxCurCont>6</maxCurCont>
+      <maxCurContTime>2</maxCurContTime>
+      <maxAccel>7.5</maxAccel>
+      <maxStoppingTime>0.5</maxStoppingTime>
+      <extendLimits>false</extendLimits>
+      <extendLimitsPercentage>0.1</extendLimitsPercentage>
+      <isSimulated>false</isSimulated>
+      <settlingTime>150</settlingTime>
+      <positionTolerance>0.05</positionTolerance>
+      <brake>false</brake>
+      <thetaAdvanceFactor>0</thetaAdvanceFactor>
+      <resolverAlignGain>0</resolverAlignGain>
+      <poles>0</poles>
+      <servoEnable>0</servoEnable>
+      <maxNonCliPrimDev>0.4</maxNonCliPrimDev>
+      <maxNonCliPrimDevWarn>0.5</maxNonCliPrimDevWarn>
+      <maxNonCliSecDev>0.6</maxNonCliSecDev>
+      <maxNonCliSecDevWarn>0.7</maxNonCliSecDevWarn>
+      <clinicalPoint>140</clinicalPoint>
+      <MotorSensor />
+      <systemCalib>false</systemCalib>
+      <primSecOppositeDirLimit>2.0</primSecOppositeDirLimit>
+      <orderChangedLimit>5.0</orderChangedLimit>
+      <motionRecord bufferSize="20000" recordSize="-1" defaultReadSize="20000" />
+      <primPosHwStableTol>5</primPosHwStableTol>
+      <deviationFaultDelayTime>1000</deviationFaultDelayTime>
+    </Vrt>
+  </MotorCtrl>
+  <UserInputCtrl>
+    <updateRate>10</updateRate>
+    <LeftPendant>
+      <powerUpTime>7000</powerUpTime>
+    </LeftPendant>
+    <RightPendant>
+      <powerUpTime>7000</powerUpTime>
+    </RightPendant>
+    <LeftSidePanel>
+      <powerUpTime>7000</powerUpTime>
+    </LeftSidePanel>
+    <RightSidePanel>
+      <powerUpTime>7000</powerUpTime>
+    </RightSidePanel>
+  </UserInputCtrl>
+  <CouchTop>
+    <CouchTopModel index="0">
+      <name>IGRT</name>
+      <KPitch>4000000</KPitch>
+      <KRoll>2000000</KRoll>
+      <WLatCarr>120</WLatCarr>
+      <WLongCarr>85</WLongCarr>
+      <XOffset>100</XOffset>
+      <YCarrOffset>30</YCarrOffset>
+      <YPatientOffset>30</YPatientOffset>
+      <YPitch>108</YPitch>
+      <ZPitch>96</ZPitch>
+      <ZRoll>84</ZRoll>
+    </CouchTopModel>
+    <CouchTopModel index="1">
+      <name>BrainLab</name>
+      <KPitch>4000000</KPitch>
+      <KRoll>2000000</KRoll>
+      <WLatCarr>223</WLatCarr>
+      <WLongCarr>188</WLongCarr>
+      <XOffset>100</XOffset>
+      <YCarrOffset>30</YCarrOffset>
+      <YPatientOffset>30</YPatientOffset>
+      <YPitch>108</YPitch>
+      <ZPitch>96</ZPitch>
+      <ZRoll>84</ZRoll>
+    </CouchTopModel>
+  </CouchTop>
+</CCHNode></ProtectedElement>

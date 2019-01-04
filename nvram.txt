@@ -1,0 +1,1 @@
+ata=1,0(0,0)host:/ata0/vxWorks s=/ata1/STARTUP.TXT f=0x08
